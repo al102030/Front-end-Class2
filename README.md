@@ -49,7 +49,7 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Paragraph tag
   - Line Break tag (Empty elements)
   - Line tag (self clos tag)
-  - Comment Tag `<!-- --!>`
+  - Comment Tag `<!-- -->`
   - &nbsp mark for space
 
 - <span style="color: Red;">Lists</span>
@@ -76,6 +76,7 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Image tag `<img>`
   - Source attribute
   - Size Attributes
+  - Use optimize size for your images
   - Alt Attributes
 
 - <span style="color: Red;">Nested Elements</span>
@@ -87,5 +88,17 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
 
 - <span style="color: Red;">HTML Forms</span>
   - To collect data to do something
-  - Implement input tags
+  - Implement a textbox element/ control (`type="text"`)
+  - Attributes are belong to CSS and JavaScript courses
+  - Implement a label element
+  - Add a Multi line textbox (textarea)
+  - We can use just simple text as label
+  - Implement a submit button (`type="submit"`)
+  - Implement a Radio button (`type="radio"`)
+  - Radio's name should be the same
+  - Implement a CheckBox button (`type="checkbox"`)
+  - Use `checked="checked"` for checked a box by default
+  - Implement a Numbers field (`type="number"`)
+  - Set `min=""` and `max=""` for your Numbers input
+  - Implement a DropDownList using `select` tag
   -

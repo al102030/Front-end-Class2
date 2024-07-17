@@ -26,6 +26,7 @@
     <h6>Heading 6</h6>
     <!-- A line -->
     <hr>
+    <p><a name="Dogs">Dogs</a></p>
 
     <!-- It's a paragraph -->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -77,6 +78,7 @@
     <ul>
         <li><a href="#Birds">Birds</a></li>
         <li><a href="#Cats">Cats</a></li>
+        <li><a href="#Dogs">Dogs</a></li>
     </ul>
 
     <br>
@@ -135,13 +137,43 @@
     <br>
     <br>
 
+    <hr>
      <!-- HTML Forms -->
       <form action="" method="">
         <!-- Input elements go in here -->
-         <input type="text" name="" size="">
-         <br>
-         <br>
-         <input type="text" name="" size="50">
+        <!-- label -->
+        <label for="firstname">First Name:</label>
+        <!-- Textbox -->
+        <input type="text" id="firstname" name="" size="50"><br><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="" size="50"><br><br>
+        Message: <br>
+         <!-- <label for="message">Message:</label> <br> -->
+        <!-- Textarea -->
+        <textarea rows="20" cols="40" name="" id="message"></textarea><br><br>
+
+        <!-- Radio Button -->
+        Yes:
+        <input type="radio" name="yesorno" id=""><br>
+        No:
+        <input type="radio" name="yesorno" id=""><br> <br>
+
+
+        <input type="checkbox" checked="checked" name="" id=""> Ferrari <br>
+        <input type="checkbox" name="" id=""> Lamborghini <br>
+        <input type="checkbox" name="" id=""> Bugatti <br>
+        <input type="checkbox" name="" id=""> Toyota <br> <br>
+
+        <input type="number" name="" min="0" max="20 "> <br> <br>
+
+        <select name="" id="">
+            <option value="tehran">Tehran</option>
+            <option value="rasht">Rasht</option>
+            <option value="tabriz">Tabriz</option>
+        </select> <br><br><br><br>
+
+         <!-- Button -->
+         <input type="submit" value="Accept">
 
       </form>
 
