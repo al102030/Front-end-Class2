@@ -58,8 +58,34 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Ordered lists `<ol>`
   - List items `<li>`
 
-- <span style="color: Red;">Table</span>
+- <span style="color: Red;">Tables</span>
+
   - Table tag `<table>`
   - Row tag `<tr>`
   - Data tag `<td>`
   - Column tag `<th>`
+
+- <span style="color: Red;">Links</span>
+
+  - Link to outside tag `<a href="www.google.com">`<span style="color: Red;">Google</span>`</a>`
+  - Define Attributes `href`
+  - Link to inside tag `<a href="#Birds">` and `<a name=Birds>`
+
+- <span style="color: Red;">Images</span>
+
+  - Image tag `<img>`
+  - Source attribute
+  - Size Attributes
+  - Alt Attributes
+
+- <span style="color: Red;">Nested Elements</span>
+
+  - `<html>` is root elements
+  - Child elements
+  - Parent elements
+  - Mismatch Elements
+
+- <span style="color: Red;">HTML Forms</span>
+  - To collect data to do something
+  - Implement input tags
+  -
