@@ -3,7 +3,10 @@
 
 <!-- head -->
 <head>
-
+    <meta name="description" content="This is a sample page for Front-end programming class">
+    <meta name="keywords" content="Test, HTML, Learning">
+    <meta http-equiv="author" content="Ali Darvishi">
+    <meta http-equiv="content-language" content="en-us">
     <!-- title -->
     <title>Home Page</title>
 </head>
@@ -29,8 +32,8 @@
     <p><a name="Dogs">Dogs</a></p>
 
     <!-- It's a paragraph -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Minima quod blanditiis expedita consequuntur optio temporibus
+    <p> H<sub>2</sub>O 10<sup>23</sup> Lorem ipsum dolor sit amet <b> consectetur </b> adipisicing elit. 
+        Minima quod blanditiis expedita <i>consequuntur</i> optio temporibus
         praesentium, rerum voluptate ipsam magnam veniam ab quasi 
         reiciendis deleniti inventore explicabo consectetur reprehenderit 
         recusandae.
@@ -133,7 +136,7 @@
     <br>
 
     <!-- Images -->
-     <p><img src="Images/1.jpg" width="200" height="200" alt="Wermithor"></p>
+     <p><img src="Images/1.jpg" width="200" height="200" alt="Wermithor" title="A big Dragon"></p>
     <br>
     <br>
 
@@ -153,29 +156,46 @@
         <textarea rows="20" cols="40" name="" id="message"></textarea><br><br>
 
         <!-- Radio Button -->
-        Yes:
-        <input type="radio" name="yesorno" id=""><br>
-        No:
-        <input type="radio" name="yesorno" id=""><br> <br>
+         <fieldset>
+            <legend>Enter your preferences</legend>
+            Yes:
+            <input type="radio" name="yesorno" id=""><br>
+            No:
+            <input type="radio" name="yesorno" id=""><br> <br>
 
 
-        <input type="checkbox" checked="checked" name="" id=""> Ferrari <br>
-        <input type="checkbox" name="" id=""> Lamborghini <br>
-        <input type="checkbox" name="" id=""> Bugatti <br>
-        <input type="checkbox" name="" id=""> Toyota <br> <br>
+            <input type="checkbox" checked="checked" name="" id=""> Ferrari <br>
+            <input type="checkbox" name="" id=""> Lamborghini <br>
+            <input type="checkbox" name="" id=""> Bugatti <br>
+            <input type="checkbox" name="" id=""> Toyota <br> <br>
 
-        <input type="number" name="" min="0" max="20 "> <br> <br>
+            <input type="number" name="" min="0" max="20 "> <br> <br>
 
-        <select name="" id="">
-            <option value="tehran">Tehran</option>
-            <option value="rasht">Rasht</option>
-            <option value="tabriz">Tabriz</option>
-        </select> <br><br><br><br>
+            <select name="" id="">
+                <option value="tehran">Tehran</option>
+                <option value="rasht">Rasht</option>
+                <option value="tabriz">Tabriz</option>
+            </select> <br><br>
+        </fieldset> <br>
+
+        Please enter your birthday date: <br>
+        <input type="date" name="day" id=""> <br><br><br>
 
          <!-- Button -->
          <input type="submit" value="Accept">
 
-      </form>
+      </form> <br><br><br>
+
+      <iframe src="https://gilkhabar.ir/content/tag_articles/17" frameborder="1" height="200" width="300" name="my_frame" id="my_frame"></iframe> <br>
+      <a href="index.html" target="my_frame">Second Site</a> <br><br><br>
+
+      <audio controls="audiocontrols" src="audio/1.mp3" autoplay loop>
+        <!-- <source src=""> -->
+      </audio> <br><br><br>
+
+      <video width="640" height="360" >
+        <source src="">
+      </video>
 
 
 
