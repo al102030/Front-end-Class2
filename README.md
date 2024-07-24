@@ -11,6 +11,7 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Network History
   - All kinds of Applications
   - Web Applications
+  - ![](Images/6.png)
 
 - <span style="color: Red;">Web Applications</span>
 
@@ -34,6 +35,8 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - HTML (Hyper Text MarkUp Language)
   - CSS (Cascaded Style Sheet)
   - JavaScript
+
+### <span style="color: #44cecc;">HTML</span>
 
 - <span style="color: Red;">What is the HTML?</span>
 
@@ -166,4 +169,29 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - For placing different format of a file we can use `<source>` tag
 
 - <span style="color: Red;">DOCTYPE</span>
+
   - It shows the version of HTML that we use in our document
+
+- <span style="color: Red;">Document Object Model (DOM)</span>
+
+  - It's a model that present HTML elements i our document
+  - ![](Images/3.png)
+  - Use w3 validator to check your HTML codes
+  - https://validator.w3.org/
+
+- <span style="color: Red;">HTML Semantic Elements</span>
+
+  - A semantic element clearly describes its meaning to both the browser and the developer
+  - A semantic Web allows data to be shared and reused across applications, enterprises, and communities
+  - ![](Images/4.png)
+  - ![](Images/5.png)
+
+- <span style="color: Red;">Additional HTML Tags</span>
+
+  - Use `<pre>` tag for preformatted text
+  - Use `<blockquote cite="">` tag for A section that is quoted from another source
+  - Use `<code>` tag for code snippets
+  - Use `<dl>` tag for present a description list (`<dt>`, `<dd>`)
+
+- <span style="color: Red;">Exercise</span>
+  - Section1: ![](Images/ex1.png)
