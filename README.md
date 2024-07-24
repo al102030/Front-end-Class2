@@ -195,3 +195,4 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
 
 - <span style="color: Red;">Exercise</span>
   - Section1: ![](Images/ex1.png)
+  - Section2: ![](Images/ex2.png)
