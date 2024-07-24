@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="author" content="Ali Darvishi" />
+    <title>HTML Basics Practice</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to HTML Basics</h1>
+      <nav>
+        <ul>
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="section1">
+        <h2>Section 1: Text Elements</h2>
+        <p>
+          This is a paragraph. <strong>This text is bold.</strong>
+          <em>This text is italic.</em>
+        </p>
+        <blockquote>This is a blockquote.</blockquote>
+        <pre>
+                This is preformatted text.
+                It preserves whitespace.
+            </pre
+        >
+        <code>&lt;p&gt;This is a code snippet.&lt;/p&gt;</code>
+      </section>
+
+      <section id="section2">
+        <h2>Section 2: Lists</h2>
+        <h3>Unordered List</h3>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+          <li>First Item</li>
+          <li>Second Item</li>
+          <li>Third Item</li>
+        </ol>
+
+        <h3>Description List</h3>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Hypertext Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+          <dt>JS</dt>
+          <dd>JavaScript</dd>
+        </dl>
+      </section>
+
+      <section id="section3">
+        <h2>Section 3: Media and Tables</h2>
+        <h3>Image</h3>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+
+        <h3>Table</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Header 1</th>
+              <th>Header 2</th>
+              <th>Header 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Data 1</td>
+              <td>Data 2</td>
+              <td>Data 3</td>
+            </tr>
+            <tr>
+              <td>Data 4</td>
+              <td>Data 5</td>
+              <td>Data 6</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Form</h3>
+        <form action="#">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="50"></textarea
+          ><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 HTML Basics. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

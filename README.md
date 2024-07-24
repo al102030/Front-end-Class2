@@ -196,3 +196,28 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
 - <span style="color: Red;">Exercise</span>
   - Section1: ![](Images/ex1.png)
   - Section2: ![](Images/ex2.png)
+  - Section3: ![](Images/ex3.png)
+
+### <span style="color: #44cecc;">CSS</span>
+
+- <span style="color: Red;">What is the HTML?</span>
+
+  - CSS is Cascading Style Sheet for describing look and formatting documents
+  - Adds style to your HTML
+  - Talk about another HTML tag: `<style>`
+  - select a tag in your HTML document ex:`h1 {  ...  }`
+
+- <span style="color: Red;">Changing font color, type, and size</span>
+
+  - Use `color`, `font-size`, and `font-family` property to change respectively color, size, and font type of your text
+
+- <span style="color: Red;">Multi Selecting Tags</span>
+
+  - `h1, h2 {   ....  }`
+
+- <span style="color: Red;">Border Property</span>
+
+  - `border-bottom`, `border-top` ...
+
+- <span style="color: Red;">CSS Inheritance and Overriding</span>
+  - `border-bottom`, `border-top` ...
