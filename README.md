@@ -220,4 +220,64 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - `border-bottom`, `border-top` ...
 
 - <span style="color: Red;">CSS Inheritance and Overriding</span>
-  - `border-bottom`, `border-top` ...
+
+  - What you get with hierarchy is inheritance
+  - ![](Images/7.png)
+  - Child properties from their parents
+  - To change something individually you should change that in the child tag using overriding rule
+
+- <span style="color: Red;">Using Classes</span>
+
+  - Create two paragraph with different classes (`blue`, `red`) and define classes in style tag
+  - It don't need it to put class attribute closing tag
+  - By removing tag name before dot notation it can be apply on all tags which have a specific class attribute
+  - You can use multiple class name in your class attribute
+  - Apply it by using `text-decoration` property
+
+- <span style="color: Red;">Font Family</span>
+
+  - You can define which font apply on your text
+  - If none of those fonts don't exist in the client computer system default font apply on your text
+  - It's better to put font family property in your `body` tag
+
+- <span style="color: Red;">Font Weight Property</span>
+
+  - Use `normal`, `bold`, `bolder`, and `lighter` for check this property
+
+- <span style="color: Red;">External Style Sheet</span>
+
+  - There is three way to apply stylesheet on HTML
+  - `internal style sheet`, `external style sheet`, and `inline style sheet`
+  - Internal stylesheet is good if you have only one page
+  - It's more realistic to use external stylesheet
+  - Create a separate file for your stylesheet `.css`
+  - Transfer your code to your new file
+  - Create a link tag in your head element
+  - Define true address for your link
+
+- <span style="color: Red;">Text Decoration</span>
+
+  - Talk about `line-through`, `underline`, and `overline` property (`none`)
+  - Talk about italic style by `font-style` and creating three different paragraph and classes
+  - To make a word italic it's better to use HTML tags
+
+- <span style="color: Red;">Web Colors</span>
+
+  - There is three primary way to add colors
+  - `use 16 primary colors`, `use RGB values`, and `use hex-codes`
+  -
+  - Primary colors
+  - ![](Images/8.png)
+  -
+  - RGB colors
+  - ![](Images/9.png)
+  - Check this colors in windows paint
+  - Use `rgb(number for red, number for green, number for blue);` property
+  - It's better to use hex-code color code. It's more professional
+  - Use for ex: `#ff2456` format for apply color on your tags numbers in hex-code cover around 16 million different color `00..ff`
+
+- <span style="color: Red;">Inline Style Sheet</span>
+  - Use `style` property inside a tag
+  - Separate properties using `;`
+  - Only use this way when you have a rock solid tag that never change
+  -
