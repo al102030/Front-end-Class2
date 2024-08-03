@@ -277,7 +277,53 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Use for ex: `#ff2456` format for apply color on your tags numbers in hex-code cover around 16 million different color `00..ff`
 
 - <span style="color: Red;">Inline Style Sheet</span>
+
   - Use `style` property inside a tag
   - Separate properties using `;`
   - Only use this way when you have a rock solid tag that never change
-  -
+
+- <span style="color: Red;">More Font Size</span>
+
+  - Four way to apply size to texts `font-size:---`
+  - `px`, `%`, `em`, and `keywords`
+  - Define font size in `body` and use different `font-size` for `h1`, `h2`, and `p`
+  - `px` define size based of number of pixels
+  - `%` change font size based on inheritance and parent tag font size
+  - This is a relative unit of measures
+  - Calculate the new measure by calculator
+  - `em` do the same thing that percentage is doing
+  - By change the value in body you can change other tags without editing
+
+- <span style="color: Red;">Line Hight Property</span>
+
+  - By using this property you can make your text more readable
+  - `line-hight:...;`
+  - Size rules are useable here
+
+- <span style="color: Red;">CSS Box Model</span>
+
+  - ![](Images/10.png)
+  - - Every elements in our HTML file have these boxes around them
+  - `Content`: Everything goes there like our text
+  - Show box using `background-color` property
+  - Define a `border` in three line and than one line
+  - `padding`: Is distance between content and border
+  - browser add a default padding and margin to elements
+  - `margin`: Is distance between border and other elements
+  - Check `margin` changes between two paragraph
+  - `padding-top`, `padding-bottom`, `padding-left`, and `padding-right`
+  - `margin-top`, `margin-bottom`, `margin-left`, and `margin-right`
+  - Even `body` tag is surrounded by Box model
+  - Bay adding temporary border you can check box around a element
+  - Use Image tag in page to demonstrate Box model around it using class attribute
+  - HTML elements come in top-down order
+  - By setting `margin-left` and `margin-right` to `auto` our element become centralized
+  - Add border and background to our image
+  - We can combine our property values in in line by four value (`top`-`right`-`bottom`-`left`)
+  - Color of background applies on the padding
+  - Set margin to 0 and check other elements margin
+  - Set `body` tag margin to 0
+
+- <span style="color: Red;">Background Image Property</span>
+  - Use google and download claud pattern css
+  - `backgroaung-image:url(...);`
