@@ -325,5 +325,44 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Set `body` tag margin to 0
 
 - <span style="color: Red;">Background Image Property</span>
+
   - Use google and download claud pattern css
-  - `backgroaung-image:url(...);`
+  - `background-image:url(...);`
+  - We can use `url` for the source of image
+  - By using this property we can give background image to each tag that we want
+
+- <span style="color: Red;">The ID Attribute</span>
+
+  - Use `ID` attribute when you want to apply an individual style to a specific tag
+  - Use class attribute when you want to apply a style to a list of objects from same classes
+  - `ID` attribute has higher priority than `class` attribute
+
+- <span style="color: Red;">Text Align Property</span>
+
+  - `text-align:`center, right, left
+  - Apply it on headers
+  - It changes by the changing the page size
+
+- <span style="color: Red;">Border Property</span>
+
+  - Explain border property and its individual elements
+  - Talk about combination of all properties
+  - Check values for all properties
+  - Use `border-radius` to curve the border
+  - This property doesn't work in some browsers
+  - You can add curves to the selected corners
+  - Check selected curves to by corner properties
+  - You can also apply other border properties to specific sides
+
+- <span style="color: Red;">&lt;Div&gt; Element</span>
+
+  - This element is used more and more in related to CSS
+  - We `div` to define logical sections in our webpage
+  - The `class` property can be placed in a tag or in a `div` tag which surrounded that tag
+  - Notice to inheritance and `body` tag properties when you use `div` to separate your pages
+
+- <span style="color: Red;">The &lt;SPAN&gt; Element</span>
+  - `SPAN` is similar to the `div` but operates on a small scale
+  - It can work inside a individual element like paragraph
+  - Explain it by using `highlight` class
+  - Divs work like container but SPAN work inside other elements

@@ -7,3 +7,16 @@ p {
     font-size: 25px;
     font-family:'Times New Roman', Times, serif;
 }
+
+.para {
+    color: aqua;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-top-color: blue;
+    border-bottom-style: dotted;
+
+}
+
+#para4ok {
+    color: brown;
+}
