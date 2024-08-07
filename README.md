@@ -362,7 +362,110 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Notice to inheritance and `body` tag properties when you use `div` to separate your pages
 
 - <span style="color: Red;">The &lt;SPAN&gt; Element</span>
+
   - `SPAN` is similar to the `div` but operates on a small scale
   - It can work inside a individual element like paragraph
   - Explain it by using `highlight` class
   - Divs work like container but SPAN work inside other elements
+
+- <span style="color: Red;">Reuse CSS</span>
+
+  - We can use only one CSS file for our all pages
+  - We need to only link new file to our CSS stylesheet
+
+- <span style="color: Red;">Special Effects</span>
+
+  - We use `pseudo classes` to add some special effects to our elements
+  - Use `:` to define a pseudo class
+  - It doesn't need to define anything in HTML file
+
+- <span style="color: Red;">Positioning Elements</span>
+
+  - By execute positioning on CSS you can put your element in a arbitrary location
+  - Elements are divided into two basic types: `Block` / `Inline`
+  - Block element is major structural element and it extends all the way from the left to the right side of the page
+  - Block element take all its share from left to right and it's a `natural flow`
+  - By adding `width` to a block element it looses its share
+  - By default All elements is in a block and there is a top-down priority for them
+  - Block element share in page is true for nested elements
+  - Images and spans are `Inline` elements
+  - Inline elements only stretches by the size of content
+  - By explain `Box model` on Block and Inline elements demonstrate the actual differences
+  - Notice Images take margin property all around them but Span takes it only in the left and right side
+  - Margin of two Inline elements are completely apply but between two block elements only one margin space take place
+  - Always <span style="color: Orange;">higher element's margin</span> apply between two block element
+  - We can convert a block to Inline and vice versa by using `Display` property
+  - Talk about two block and Inline elements' margin and centralize them
+
+- <span style="color: Red;">Floating an Element</span>
+
+  - By using floating element we can define a position for an element (define `width` and set float to `left`)
+  - By define float property we actually interrupt natural flow and put some space for next item in the list
+  - Use percentage (`50%`) to divide screen into two pieces
+
+- <span style="color: Red;">Absolute Positioning for an Element</span>
+
+  - By using `position` property we can define and `absolute` and optional position for an element (Also `top`, `left`, `bottom`, and `right` properties are needed)
+  - By using position property our element exits from flow completely and not respect to borders (decrease the top and left size)
+  - Float property respects the boundaries
+
+- <span style="color: Red;">Fixed Positioning for an Element</span>
+
+  - By switch the value of position property to `fixed` we can put an element in concrete position (use `TLBR`)
+  - Try to not using it, because it bothers you web page users
+  - Sometime it's used for advertisement
+  - We talk about relative positioning in the future
+
+- <span style="color: Red;">Overflow Property</span>
+
+  - By using `overflow` property we can define a showing option for content that is not fit to the hight of element
+  - Use different options like: scroll, hidden, and the like
+
+- <span style="color: Red;">The Cursor Property</span>
+
+  - You can change the mouse cursor icon over elements by define `cursor` property
+  - Use different shape of cursers
+
+- <span style="color: Red;">Custom Cursor</span>
+
+  - By using `Url` option for cursor we can add our icon to cursor collection and use it
+  - Search in windows and use an `icon` to define it
+  - Use default option for safety mechanism
+
+- <span style="color: Red;">Text ans Images</span>
+
+  - When you want to alien an image within a text you can do it by adding the `float` property to its class
+  - By default Image is in flow and by floating it all free space after it allocate to the next item (ex:text)
+  - Adding margin to the class creates enough free space between them
+  - Large margin for the bottom can create a nice style for text
+  - By moving image tag to outside of the paragraph tag they can by aligned
+
+- <span style="color: Red;">Relative Positioning</span>
+
+  - All elements are in the flow and have static position
+  - Check `position: static;` for square and it doesn't move
+  - Position options are `static`, `relative`, and `absolute`
+  - For apply a relative option we should use two option of `TRBL`
+  - `Relative` positioning look to the first <span style="color: #1783f7;">static</span> element at the side (top last paragraph / left edge of last div)
+  - `Absolute` position look to the first <span style="color: #1783f7;">Non-static</span> element
+  - Change position of the square to absolute to show differences (bottom-right) and change it for another element
+  - Typically we don't use relative positioning for our main content panel
+  - We use relative when we want to keep an absolute element in our content
+
+- <span style="color: Red;">Vertical Menu</span>
+
+  - Start with a un ordered list and address tag for list items
+  - First, we should change `list-style` to `none` to remove bullet points
+  - Set padding and margin to `0`
+  - Change `text-decoration` property to `none` for anchor tag and also `font-family`, `background-color`, and `color` property
+  - `Anchor` tag is inline element
+  - By changing display to `block` and set width to `80px` and margin to `5px` and margin to `10px` our menu get shape
+  - We need another selector for special effects
+
+- <span style="color: Red;">Horizontal Menu</span>
+
+  - Put your unordered list inside a section(div)
+  - All the process is similar to vertical menu except setting the display to `inline` for `li`
+
+- <span style="color: Red;">Beautiful Button</span>
+  - P
