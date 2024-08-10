@@ -466,6 +466,26 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
 
   - Put your unordered list inside a section(div)
   - All the process is similar to vertical menu except setting the display to `inline` for `li`
+  - `ul` and `a` Don't inherit anything from each other
 
 - <span style="color: Red;">Beautiful Button</span>
-  - P
+
+  - We don't put it in a separate div like horizontal nav abr
+  - Two number for padding is related to `top&bottom` and `left&right`
+
+- <span style="color: Red;">Inline-block</span>
+
+  - By setting display property to `inline-block` the element behave like inline elements but recognize hight
+  - It's half and half display style
+  - By using this you can have more control over a element that is a part of another element
+
+- <span style="color: Red;">Web Forms</span>
+
+  - `Input` element is an `inline` element
+  - To design our form we can put its elements into a cell form structure
+  - We need to put our form elements in separate `divs` with class `row`
+  - Give an Id to our form to style it
+  - We need to set our form display property to `table`
+  - For each row in our display style we need another form of display called `table-row`
+  - Now we need to put each element in our table style display in distinct cell by setting its display property to `table-cell`
+  - The `table-column` doesn't need to define
