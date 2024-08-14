@@ -489,3 +489,26 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - For each row in our display style we need another form of display called `table-row`
   - Now we need to put each element in our table style display in distinct cell by setting its display property to `table-cell`
   - The `table-column` doesn't need to define
+
+- <span style="color: Red;">Selectors</span>
+
+  - To select an element by its `type `use type selector ex: `h1{}`
+  - To select an element by `id` use `#` selector ex: `#para1{}`
+  - To select an element by its class use `.` selector ex: `.para{}`
+  - We can `combine` selectors with each other and separate them by `,` like `h1, p, #para1`
+  - `Descended` selector is a form of address to a specific element like `ul li a` (it doesn't use `,`)
+  - `Child` selector is a kind od descended selector which use `>` to access to an element
+  - Child selector point direct to an element and there is no extra element between two element
+
+- <span style="color: Red;">Selector Strategies</span>
+
+  - By using Combine selectors we can decrease the line of codes
+  - The last rule in your CSS has highest priority
+
+- <span style="color: Red;">Siblings selectors</span>
+  - ![](Images/11.png)
+  -
+  - Use `+` sign to select an siblings element like `h2+p`
+  - By using `~` instead of `+` we can use general siblings selector
+  - This select all items after first item in selector
+  -
