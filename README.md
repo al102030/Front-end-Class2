@@ -498,17 +498,55 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - We can `combine` selectors with each other and separate them by `,` like `h1, p, #para1`
   - `Descended` selector is a form of address to a specific element like `ul li a` (it doesn't use `,`)
   - `Child` selector is a kind od descended selector which use `>` to access to an element
-  - Child selector point direct to an element and there is no extra element between two element
+  - Child selector point direct to an element and there is no extra element between two element (Only one level down can be a direct child)
 
 - <span style="color: Red;">Selector Strategies</span>
 
   - By using Combine selectors we can decrease the line of codes
   - The last rule in your CSS has highest priority
 
-- <span style="color: Red;">Siblings selectors</span>
+- <span style="color: Red;">Siblings selector</span>
+
   - ![](Images/11.png)
   -
-  - Use `+` sign to select an siblings element like `h2+p`
+  - Use `+` sign to select an adjacent siblings element like `h2+p`
   - By using `~` instead of `+` we can use general siblings selector
   - This select all items after first item in selector
-  -
+  - By using wildcard selector `*` we can use every elements in our page (using this selector is not recommended)
+
+- <span style="color: Red;">Attribute selector</span>
+
+  - By placing `[]` after a specific selector we can select by choosing its attributes
+  - Example : `p[href] {}`
+  - To associate a value to a attribute selector put a `=` and that value after it in bracket
+  - By placing a carrot symbol `^` after attribute name you can select an attribute that start with a specific value
+  - Use `$` sign to match end of a value with an attribute
+  - Use `*` sign to match a specific value anywhere in an attribute with that it
+
+- <span style="color: Red;">Nth Child Selector</span>
+
+  - `Hover` is pseudo selector
+  - We use `nth selector` for patterning selection (Like selecting even elements)
+  - Example: `p:nth-child(3 or even or 3n)`
+  - By adding a number to a patter like 3n we can define that where the selector should start
+
+- <span style="color: Red;">Not Selector</span>
+
+  - By using this selector you can define that a specific element doesn't affected by changes
+  - It's a pseudo selector and we should place a selector inside its parentheses
+  - If we remove that selector, all thing in the page is going to be affected
+
+- <span style="color: Red;">First Selector</span>
+
+  - It's a different kind of Pseudo classes
+  - We can choose a first letter of all paragraphs
+  - Example: `p::first-letter` of `p:first-line`
+
+- <span style="color: Red;">Opacity Property</span>
+
+  - The value rage for `opacity` property is `0.0 - 1.0`
+  - `1.0` is the default value
+  - By using `hover` pseudo class you can create a beautiful special effect
+
+- <span style="color: Red;">Linier Gradients</span>
+  - T
