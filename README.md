@@ -549,4 +549,33 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - By using `hover` pseudo class you can create a beautiful special effect
 
 - <span style="color: Red;">Linier Gradients</span>
-  - T
+
+  - To use different colors in a specific part of our page in nice way we can use `liner-gradient()` CSS function
+  - Use `background` property to define a color if browser doesn't support gradient
+  - Default movement in `liner-gradient` is `top-down` order
+  - `to right` parameter change the default order
+  - check `to top left`
+  - Using degree (`30deg`) make it custom
+  - Also you can add more color to your gradient
+  - Add a percentage to a color gives the other color share based on it
+  - Giving a 50% to each color create a straight line between them
+
+- <span style="color: Red;">Combine Opacity and Gradients</span>
+
+  - By using `rgba` parameter in linier-gradient we can mix gradient and opacity
+
+- <span style="color: Red;">Text Shadow</span>
+
+  - By using `text-shadow` property we can add a beautiful shadow to our text
+  - First and second option is vertical and horizontal shadow depth and the third option is the measure of blur of it
+  - We can and multiple shadow to our text by separating them with `,`
+  - By using `rgba` we can control our text shadow opacity
+
+- <span style="color: Red;">Box Shadow</span>
+
+  - By using `box-shadow` property we can create nice shadow for our elements
+  - Option for box-shadow is completely the same with text-shadow and it has one more option (`pixels`)
+  - Boxes has another option called inner-shadow (`inset`)
+
+- <span style="color: Red;">CSS Grid</span>
+  -
