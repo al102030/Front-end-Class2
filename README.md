@@ -578,4 +578,42 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Boxes has another option called inner-shadow (`inset`)
 
 - <span style="color: Red;">CSS Grid</span>
+
+  - First of all create a dive as your CSS Grid container
+  - Fist step is setting your div display property to `grid`
+  - By using `grid-template-columns` we can create our grid and columns (`auto` option is a place holder for each one)
+  - `auto` option stretch your columns based on the size of the screen
+  - Grid gutters defined by `grid-gap`
+  - By using `grid-template-rows` we can create our grid rows and we can give specific size to all of them
+  -
+  - ![](Images/12.png)
+  -
+  - Create your first section in you container by creating a new `div`
+  - Now you need to specify `grid-column` and `grid-row`
+  - You don't need to put the stop line for first section
+  - To specify a `stop line` we can put a `slash(/)` after start line and than put stop line number (`Section10`)
+  - For a new row you need to define it in container-grid section
+  - For a real dynamic website which has unpredictable rows of grid we can use `grid-auto-rows`
+  - Define new section based on new auto rows property
+  - By using `repeat` function for `grid-template-column` as value, we can change the process of creating columns automatic
+  - First parameter is the minimum number of columns
+  - The second parameter (`1fr`) is for dividing section equally
+  - By adding two new column in new column definition show the new style
+  - To nest a grid inside another grid we need to define new container for new grid and put html elements inside a section
+  - Padding for grid sections is different from gutters
+  - Test adding an image to grid section (define width and hight)
+
+- <span style="color: Red;">CSS FlexBox</span>
+  - `FlexBox` allows you to create a layout in <span style="color: #0099ff;">one dimension</span>
+  - `Grid` allows you to create a layout in <span style="color: #0099ff;">Two dimension</span>
+  - Using them separately and mixed help you to make flexible layout
+  - By changing `flex-direction` property you can change your FlexBox direction (default value for this property is `row`)
+  - `Order` property set to `0` in default mode
+  - By setting this property you can choose your desire order for your boxes
+  - You can set mines value for this property (like -1)
+  - `flex-grow` property define the size of the boxes and you need to define it for all of them
+  - By setting `flex-grow` for all boxes you divide the space between them evenly
+  - By using `Justify-content` property you can change the location of your boxes
+  - By using `Justify-content` and `flex-direction` properties you can choose optional positions for your FlexBox
+  - `align-items` can change the position in another way and you can use them for a specific box (`alig-self`)
   -
