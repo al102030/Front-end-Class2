@@ -604,16 +604,29 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Test adding an image to grid section (define width and hight)
 
 - <span style="color: Red;">CSS FlexBox</span>
+
   - `FlexBox` allows you to create a layout in <span style="color: #0099ff;">one dimension</span>
   - `Grid` allows you to create a layout in <span style="color: #0099ff;">Two dimension</span>
   - Using them separately and mixed help you to make flexible layout
   - By changing `flex-direction` property you can change your FlexBox direction (default value for this property is `row`)
   - `Order` property set to `0` in default mode
+
   - By setting this property you can choose your desire order for your boxes
   - You can set mines value for this property (like -1)
+  - - If you want to an item come first ever set its order property to a very big negative value like `-1000`
   - `flex-grow` property define the size of the boxes and you need to define it for all of them
   - By setting `flex-grow` for all boxes you divide the space between them evenly
   - By using `Justify-content` property you can change the location of your boxes
   - By using `Justify-content` and `flex-direction` properties you can choose optional positions for your FlexBox
-  - `align-items` can change the position in another way and you can use them for a specific box (`alig-self`)
-  -
+  - `Justify-content` property doesn't work for a vertical Flexbox when set to `flex-end`
+  - `align-items` can change the position in another way and you can use them for a specific box (`align-self`)
+  - By using `flex-wrap` you can fix your boxes actual size
+  - Set `Justify-content` to `space-around` mixed with `wrap`
+  - `flex-shrink` property work like flex grow in a more flexible way
+  - It gets the the space from one box and share it between other boxes
+  - By setting `flex-basis` when `flex-direction` set to <span style="color: lightgreen;">row</span>, it works against the `width`
+  - By setting `flex-basis` when `flex-direction` set to <span style="color: lightgreen;">column</span>, it works against the `hight`
+
+- <span style="color: Red;">Creating layout using CSS FlexBox</span>
+
+  - Use FlexBox properties to create a custom layout fully
