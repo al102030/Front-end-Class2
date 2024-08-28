@@ -630,3 +630,50 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
 - <span style="color: Red;">Creating layout using CSS FlexBox</span>
 
   - Use FlexBox properties to create a custom layout fully
+
+### <span style="color: #00cc00;">Bootstrap</span>
+
+- <span style="color: Red;">What is the Bootstrap?</span>
+
+  - <span style="color: #cc00cc">Bootstrap</span> is a free and open source `framework` that allows you to build websites
+  - It's a set of tools that allows you to do something complex easily like Jquery
+  - First responsive mobile website was built by Bootstrap
+  - You need to know `HTML`, `CSS`, and `Javascript`
+  - It's a CSS framework and it doesn't need to be tested
+  - It's provide `Grid` system for your website
+  - It's not a template and it's offer `a lot` (lots of pre-made components)
+
+- <span style="color: Red;">Bootstrap Implementation</span>
+
+  - Visit [Bootstrap website](https://www.getbootstrap.com)
+  - Download the bootstrap
+  - Also we can use `CDN` (Content Delivery Network) to use bootstrap easily
+
+- <span style="color: Red;">The Grid Layout</span>
+
+  - The Grid layout provide structure
+  - Bootstrap uses grid structure to form your website structure
+  - This structure is very responsive and easy to maintain
+  - Bootstrap system allows you to have up to 12 columns
+  - First create your `container` class. You must wrap all of your grids in this container (It's pre-defined class)
+  - You can use `two types` of classes that you can use here(`container`, `container-fluid`)
+  - Add your Bootstrap `row` to your container class (It's pre-defined class)
+  - Add your Bootstrap `col-md-2` to your container class (It's pre-defined class)
+  - Bootstrap has four major classes that you can call
+    - `xs` for Phones
+    - `sm` for Tablets
+    - `md` for Desktops
+    - `lg` for larger Desktops
+  - Typically we use `md` class in our designs
+  - All these sizes have another numeral size between `1-6`
+  - Create 6 columns for testing
+  - You can add your own stylesheet to bootstrap classes
+  - Put your stylesheet link after Bootstrap link to give it higher priority
+  - By adding a `new div` we can apply our own customized classes on columns
+  - Also we can use `id` to do that
+  - Define separate classes for each column and resize your web browser
+  - Change the columns size by Bootstrap numeral sizing measure
+  - Add another row and create a beautiful pattern for your basic bootstrap template
+  - `offset` set column behavior to default (standard format)
+  - Use `offset-md-5` class to place your column in a optional position
+  -

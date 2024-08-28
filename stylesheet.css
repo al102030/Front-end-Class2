@@ -1,4 +1,50 @@
-h1 {
+.row {
+    background-color: lavender;
+}
+
+.col1{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: silver;
+}
+.col2{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(243, 123, 123);
+}
+.col3{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(79, 239, 201);
+}
+.col4{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(245, 223, 109);
+}
+.col5{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(248, 112, 185);
+}
+.col6{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(133, 192, 243);
+}
+.col7{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(133, 192, 243);
+}
+/* h1 {
     background-color: aqua;
 }
 
@@ -21,7 +67,7 @@ p {
 }
 
 /* Relative styles */
-body {
+/* body {
     background-color: #f4ebbc;
 }
 
@@ -48,4 +94,4 @@ body {
     height: 25px;
     width: 25px;
     background: red;
-}
+} */
