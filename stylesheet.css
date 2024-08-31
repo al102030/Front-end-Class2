@@ -36,7 +36,7 @@
     margin: 3px;
     min-height: 300px;
     text-align: center;
-    background-color: rgb(133, 192, 243);
+    background-color: rgb(6, 77, 140);
 }
 .col7{
     margin: 3px;
@@ -44,6 +44,13 @@
     text-align: center;
     background-color: rgb(133, 192, 243);
 }
+
+.insidecol{
+    min-height: 100px;
+    text-align: center;
+    background-color: rgb(249, 134, 34);
+}
+
 /* h1 {
     background-color: aqua;
 }

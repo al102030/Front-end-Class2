@@ -665,7 +665,7 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
     - `md` for Desktops
     - `lg` for larger Desktops
   - Typically we use `md` class in our designs
-  - All these sizes have another numeral size between `1-6`
+  - All these sizes have another numeral size between `1-12`
   - Create 6 columns for testing
   - You can add your own stylesheet to bootstrap classes
   - Put your stylesheet link after Bootstrap link to give it higher priority
@@ -676,4 +676,13 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Add another row and create a beautiful pattern for your basic bootstrap template
   - `offset` set column behavior to default (standard format)
   - Use `offset-md-5` class to place your column in a optional position
-  -
+  - To nest a columns inside other columns at first we need to define a row inside them
+  - Then we need to to define our column inside new row
+  - Bootstrap look at the available space for sizing
+  - By using `h` classes you can size you heading tags
+  - You can use `display` classes for sizing your fonts
+  - There is a small differences between display and h class
+  - `Lead` class give a different style to our paragraph tags
+  - By using `text-start`, `text-center`, and `text-end`, you can align your text
+  - A `text-decoration-underline` decorate your text in underline form
+  - A `text-decoration-line-through` decorate your text in underline form
