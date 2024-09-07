@@ -678,11 +678,66 @@ Front-end Crash course for Kadoos Private educational Institute. (HTML, CSS, and
   - Use `offset-md-5` class to place your column in a optional position
   - To nest a columns inside other columns at first we need to define a row inside them
   - Then we need to to define our column inside new row
+
+- <span style="color: Red;">Text</span>
   - Bootstrap look at the available space for sizing
-  - By using `h` classes you can size you heading tags
+  - By using `h` classes you can shape your text like heading tags
   - You can use `display` classes for sizing your fonts
   - There is a small differences between display and h class
   - `Lead` class give a different style to our paragraph tags
   - By using `text-start`, `text-center`, and `text-end`, you can align your text
   - A `text-decoration-underline` decorate your text in underline form
-  - A `text-decoration-line-through` decorate your text in underline form
+  - A `text-decoration-line-through` decorate your text in line-through form
+  - A `fw-bold` decorate your text in bold form
+  - compare texts with small tag
+  - Check colors in bootstrap site
+- <span style="color: Red;">Color</span>
+  - Bootstrap provide 8 primary colors which you can find in its documentation
+  - By using classes in the form of `text-"color_name"` you can apply a primary color on your text
+  - By using classes in the form of `bg-"color_name"` you can apply a primary color on your text background
+- <span style="color: Red;">Buttons</span>
+
+  - By using base `btn` class we can create a button in bootstrap
+  - By giving a class of `btn` to an anchor tag we can transform it to a button
+  - By using words like `lg`, and `sm` you can change your button size
+  - We can give a custom size to our button by giving it a style in our custom CSS
+  - `btn-outline-"color name"` can create nice bootstrap buttons
+  - By using `btn-group` class we can style our buttons in a nice group
+  - Put your button group inside a `div`
+
+- <span style="color: Red;">Utility Classes (Margin and Padding)</span>
+
+  - By using classes that starts with `m-` or `p-` follows by a range of numbers `1-5` we can apply margin and padding to elements. like `m-3`
+  - We can apply margin in one direction like `top-down` by add `y` to its class like `my-1`
+  - We can apply padding in one direction like `left-right` by add `x` to its class like `px-1`
+  - By add `t`, `b`, `s`, and `e` (In order top, bottom, left, and right) to `m` or `p` classes we can apply margin or padding in on side
+
+- <span style="color: Red;">Utility Classes (Border)</span>
+
+  - Class `border` can apply a gray border to our elements
+  - By add `top`,`bottom`,`start`, and `end` we can have border in a one side
+  - Also we can colorize our border and make it thicker or thinner in the range of `1-5`
+  - `rounded` class can curve your elements border
+  - `rounded-pill` class can curve your elements border more and like cycle
+
+- <span style="color: Red;">Utility Classes (Shadow)</span>
+
+  - `shadow` class can give a nice stylish shadow to your element
+  - `sm` and `lg` can change your shadow size
+
+- <span style="color: Red;">Utility Classes (Font Wight and Style)</span>
+
+  - By `fw` and `fst` classes we can give optional wight and style to our texts font
+  - Look at the utility classes in Bootstrap site
+
+- <span style="color: Red;">Containers</span>
+
+  - Talk about Breakpoints and different containers
+  - A `normal` container change content arrangement in breakpoints
+  - A `fluid` container keep content arrangement fixed
+
+- <span style="color: Red;">Navbar</span>
+  - By using `navbar` class we can style our navigation menu in Bootstrap way
+  - You can place your brand Data in the `navbar-brand` class
+  - By using `navbar-toggler` You can create a hamburger style navbar
+  -

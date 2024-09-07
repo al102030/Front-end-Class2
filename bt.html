@@ -6,21 +6,143 @@
     <title>Bootstrap Basics</title>
 </head>
 <body>
-    <h1>Bootstrap Basics</h1>
-    <h1 class="h6">Bootstrap Basics</h1>
+
+
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-lg">
+            <a href="#intro" class="bavbar-brand">
+                <span class="fw-bold text-secondary">
+                    My WebSite
+                </span>
+            </a>
+            <!-- Toggle button for mobile anv -->
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+             data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+             aria-label="Toggle Navigation">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#topics" class="nav-link">About The Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Get in Touch</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#pricing" class="btn btn-secondary">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
     <h1>Bootstrap Basics</h1>
 
+    <!-- heading tags -->
+    <h1 class="h6">Bootstrap Basics</h1>
+    <h1 class="h2">Bootstrap Basics</h1>
+
+    <!-- display headings -->
     <p class="display-1">Lorem ipsum dolor sit amet.</p>
     <p class="display-3">Lorem ipsum dolor sit amet.</p>
     <p class="display-6">Lorem ipsum dolor sit amet.</p>
 
-
+    <!-- lead and alignment -->
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
     <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="lead text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
+    <!-- text decoration and font wight -->
     <p class="text-decoration-underline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repellendus.</p>
     <p class="text-decoration-line-through">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repellendus.</p>
     <p class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repellendus.</p>
+
+    <!-- Text color -->
+    <p class="text-primary">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-success">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-warning">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-info">Lorem ipsum dolor sit amet consectetur.</p>
+
+
+    <!-- background color -->
+    <p class="text-warning bg-info">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-white bg-dark">Lorem ipsum dolor sit amet consectetur.</p>
+
+    <!-- Basic Buttons -->
+    <button class="btn btn-primary">Primary Button</button><br><br>
+    <button class="btn btn-secondary">Primary Button</button><br><br>
+
+    <!-- anchor tag as button -->
+     <a href="" class="btn btn-warning">Warning Anchor Tag</a><br><br>
+
+     <!-- Button size -->
+    <button class="btn btn-lg btn-success">Large Button</button><br> <br>
+    <button class="btn btn-sm btn-danger">Small Button</button><br><br>
+
+    <!-- Outline style -->
+    <button class="btn btn-outline-info">Outlie Button</button><br><br>
+    <button class="btn btn-outline-primary btn-lg">Large Outlie Button</button><br><br>
+
+    <!-- Button Groups -->
+    <div class="btn-group">
+        <a href="#" class="btn btn-info">Button 1</a>
+        <a href="#" class="btn btn-warning">Button 2</a>
+        <a href="#" class="btn btn-dark">Button 3</a>
+        <a href="#" class="btn btn-danger">Button 4</a>
+    </div>
+
+    <!-- margin and padding -->
+    <div class="bg-warning m-1 p-1">Small margin and padding</div>
+    <div class="bg-warning m-5 p-5">large margin and padding</div>
+    <div class="bg-info m-5 p-5 mb-3 pe-2">Margin and padding in one direction, padding in x direction</div>
+    <div class="bg-info mt-5 pb-5 ps-4">Margin and padding in one direction, padding in x direction</div>
+
+    <!-- Border -->
+    <div class="m-3 p-3 border">Default Border</div>
+    <div class="m-3 p-3 border-top border-end">Individuals Borders</div>
+    <div class="m-3 p-3 border-start border-warning">Border color</div>
+    <div class="m-3 p-3 border-start border-top border-end border-primary border-5"> Border wight</div>
+    <div class="m-3 p-3 rounded border border-5 border-danger">Its rounded border</div>
+    <div class="m-3 p-3 rounded-pill border border-5 border-info">rounded pill border</div>
+
+
+    <!-- Shadow -->
+    <div class="m-3 p-3 shadow-sm">element with a small box shadow</div>
+    <div class="m-3 p-3 shadow-lg">element with a large box shadow</div>
+    <div class="m-3 p-3 shadow">element with a medium box shadow</div>
+
+    <!-- Font Wight and Style -->
+    <p class="fw-bold">a Text</p>
+    <p class="fw-bolder">a Text</p>
+    <p class="fw-light">a Text</p>
+    <p class="fst-italic">a Text</p>
+    <p class="fst-italic fw-bold">a Text</p>
+
+    <!-- Containers -->
+    <div class="container my-5">
+        <h2>Normal Container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse, veritatis, reprehenderit ea eum labore qui porro molestias, est voluptatem odio iste dolore nam. Laboriosam officia veritatis expedita est voluptatibus.</p>
+    </div>
+    <div class="container-fluid">
+        <h2>Fluid Container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse, veritatis, reprehenderit ea eum labore qui porro molestias, est voluptatem odio iste dolore nam. Laboriosam officia veritatis expedita est voluptatibus.</p>
+    </div>
+    <div class="container-lg">
+        <h2>Fluid Container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse, veritatis, reprehenderit ea eum labore qui porro molestias, est voluptatem odio iste dolore nam. Laboriosam officia veritatis expedita est voluptatibus.</p>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
