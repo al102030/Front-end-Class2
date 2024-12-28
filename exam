@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h2 class="logo">Logo</h2>
+        <ul>
+          <a href="Home" class="home"><li><u>Home</u></li></a>
+         <a href="About"><li>About</li></a>
+         <a href="Services"><li>services</li></a>
+         <a href="Team"><li>Team</li></a>
+         <a href="contact"><li>Contact</li></a>
+        </ul>
+      </nav>
+      <div class="searchbox">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg>
+       <input type="text" placeholder="what you are looking for?">
+       <button>search</button>
+      </div>
+      <div class="login">
+<h2>login</h2>
+<hr>
+<input type="textbox" class="A"placeholder="Username"><br>
+<input type="textbox" class="A"placeholder="password"><br>
+<a href="Forget password">Forget password</a>
+<br>
+<input type="submit" value="login" class="c">
+      </div>
+      <div class="e"></div>
+      <span class="f">Not a member?</span>
+      <a href="sing up" class="d">sign up</a>
+
+</body>
+</html>
